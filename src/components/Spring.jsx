@@ -16,14 +16,16 @@ const Spring = ({
         config,
         from: {
             opacity: 0,
-            width: '20%'
+            width: '10%',
+            flex: '10px'
         },
         opacity: 1,
-        width: '50%',
+        width: '25%',
         float: position === 'right' ? 'right' : 'left',
         delay: delay,
         padding: 0,
         margin: 'auto',
+        flex: 1
     })
     return <animated.img 
             src={image}

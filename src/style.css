@@ -18,6 +18,12 @@ body {
     will-change: transform, opacity;
 }
 
+.spring-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
 .trail-wrapper {
     width: 70%;
     margin: 10rem auto;
@@ -28,7 +34,6 @@ body {
 
 .trail-item {
     flex: 100px;
-
 }
 
 .trail-text {

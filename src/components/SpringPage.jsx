@@ -7,12 +7,11 @@ import imgFour from '../images/img-4.jpg';
 
 const SpringPage = () => {
     return (
-        <div>
-            <Spring image={imgOne} float="left" delay={0} />
-            <Spring image={imgFour} float="right" delay={2000} />
-            <br />
+        <div className="spring-wrapper">
+            <Spring image={imgOne} float="left" delay={10} />
+            <Spring image={imgFour} float="right" delay={1500} />
             <Spring image={imgThree} float="left" delay={1000} />
-            <Spring image={imgTwo} float="right" delay={3000} />
+            <Spring image={imgTwo} float="right" delay={2000} />         
         </div>
     )
 }
